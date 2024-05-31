@@ -1,7 +1,27 @@
 .mainbody2{
-    background-image: url(image/download.jpg);
-    background-size: cover;
+    background: linear-gradient(-45deg, #bb593c, #ee5892, #155369, #1cf0be);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+
+}
+
+
+.h1text{
+    color: white;
 }
 .h2text{
-color: black;
+color: white;
 }
