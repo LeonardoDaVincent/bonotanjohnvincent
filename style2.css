@@ -18,10 +18,22 @@
 
 }
 
+.personalword{
+  margin-left: 900px;
+}
+
+.Personalpic{
+width: 500px;
+border-radius: 500px;
+margin-left: 800px;
+height: 500px;
+}
+
 
 .h1text{
-    color: white;
+    color:aqua;
+    margin-top: 10px;
 }
 .h2text{
-color: white;
+  color: white;
 }
